@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home';
+import App from './App';
 
 
 ReactDOM.render(
-  <Home />,
+  <App />,
   document.getElementById('app')
 );
+
+module.hot.accept();
